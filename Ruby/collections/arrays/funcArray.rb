@@ -45,7 +45,7 @@ print "se usarmos _all ele retorna um array de variaveis encontradas\n"
 x = f.find_all{|x| x/5 == 1 || x == 1   }
 print x, "\n\n" 
 
-print "utlizando do map para altera um item da listra de cada vez \n"
+print "utlizando do map para altera um item da lista de cada vez \n"
 
 z =x.map{|z| z*2}
 
